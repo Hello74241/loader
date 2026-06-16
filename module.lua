@@ -25,6 +25,7 @@ if g.Character:FindFirstChild("ITWH") or g.Character:FindFirstChild("NOITWH") th
 local papkadata = g:FindFirstChild("PlayerData")
 local IT = papkadata and papkadata:FindFirstChild("It")
 if IT and IT.Value == true then 
+task.wait(0.5)
 local wh = Instance.new("Highlight", g.Character)
 wh.Name = "ITWH"
 wh.FillColor = Color3.fromRGB(0,0,255)
@@ -33,7 +34,7 @@ else
 
 local checkifingame = papkadata and papkadata:FindFirstChild("InGame")
 if checkifingame and checkifingame.Value == true then 
-task.wait(0.5)
+
 
 
 local whh = Instance.new("Highlight", g.Character)
@@ -48,7 +49,7 @@ end
     print("FARMWARE: esp enabled.")
     end)
 else 
-task.wait(0.5)
+task.wait(0.3)
 local workspace = game:GetService("Workspace")
 for _, k in pairs(workspace:GetDescendants()) do 
 if k.Name == "ITWH" or k.Name == "NOITWH" then 
