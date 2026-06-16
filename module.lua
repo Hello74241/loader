@@ -1,5 +1,5 @@
-local tabs = tabs
-local buttonfirst = tabs.Main:AddLeftGroupbox("Enable esp")
+local mosttabs = _G.tabs
+local buttonfirst = mosttabs.Main:AddLeftGroupbox("Enable esp")
 
 
 buttonfirst:AddToggle("Esp on-off", {
