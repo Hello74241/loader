@@ -1,3 +1,4 @@
+local tabs = tabs
 local buttonfirst = tabs.Main:AddLeftGroupbox("Enable esp")
 
 
